@@ -13,20 +13,29 @@
       <ul>
         <li><a href="index.html" class="active">Home</a></li>
         <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="index.html#highlights">Highlights</a></li>
         <li><a href="about.html">About</a></li>
       </ul>
     </nav>
   </header>
+  
+  
 
   <section class="hero">
     <div class="hero-content">
-      <h1>Discover the World with Wander Finds</h1>
-      <p>Your gateway to the most stunning destinations, travel tips, and unforgettable adventures.</p>
-      <button onclick="window.location.href='destinations.html'" style="color: white;">Start Exploring</button>
+      <h1>Explore the World with Wander Finds</h1>
+      <p>
+        Embark on a journey to discover breathtaking destinations, insider tips, 
+        and unforgettable adventures.
+      </p>
+      <button onclick="window.location.href='destinations.html'">
+        Start Exploring
+      </button>
     </div>
   </section>
+  
 
-  <section class="highlights">
+  <section class="highlights" id="highlights">
     <h2>Highlights of Wander Finds</h2>
     <div class="highlight-grid">
       <div class="highlight-card">
@@ -69,8 +78,17 @@
         <h3>Golden Deserts</h3>
         <p>Experience the tranquility and beauty of vast golden dunes under the open sky.</p>
       </div>
-      
-      
+      <div class="add-highlight-form">
+        <h3>Add a New Highlight</h3>
+        <form id="highlightForm">
+          <label for="title">Title:</label>
+          <input type="text" id="title" placeholder="Enter title" required>
+          <label for="review">Review:</label>
+          <textarea id="review" placeholder="Enter description" required></textarea>
+          <label for="image">Image URL:</label>
+          <input type="url" id="image" placeholder="Enter image URL" required>
+          <button type="submit">Add Highlight</button>
+        </form>
     </div>
   </section>
 
@@ -98,7 +116,7 @@
     </div>
   </section>
   
-
+  <script src="script.js"></script>
   <footer>
     <p>&copy; 2024 Wander Finds | All Rights Reserved</p>
   </footer>

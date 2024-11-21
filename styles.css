@@ -1,14 +1,13 @@
-/* General Reset */
 body, h1, h2, h3, p, ul, li {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif; /* Professional and clean font */
+  font-family: 'Poppins', sans-serif; 
   box-sizing: border-box;
 }
 
 body {
   line-height: 1.6;
-  background-color: #f4faff; /* Light blue background */
+  background-color: #f4faff; 
   color: #333;
 }
 
@@ -16,46 +15,41 @@ html {
   scroll-behavior: smooth;
 }
 
-/* Header Section */
-/* Header Section */
-/* Header Section */
+
 header {
-  background-color: #004aad; /* Deep blue for header */
+  background-color: #004aad; 
   color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.8rem 1.5rem; /* Smaller padding for a more compact header */
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 0.8rem 1.5rem; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   position: sticky;
   top: 0;
   z-index: 1000;
 }
 
-/* Logo Styling */
 header .logo {
-  font-size: 1.8rem; /* Reduced font size */
+  font-size: 1.8rem; 
   font-weight: bold;
   letter-spacing: 1px;
 }
 
-/* Navigation Styles */
 nav ul {
   display: flex;
   list-style: none;
-  gap: 1.2rem; /* Reduced gap between links */
+  gap: 1.2rem; 
 }
 
-/* Navigation Link Styles */
 nav a {
   color: white;
   text-decoration: none;
   padding: 0.5rem;
   font-weight: 500;
-  font-size: 1.1rem; /* Slightly smaller font size */
+  font-size: 1.1rem; 
   transition: color 0.3s ease, border-bottom 0.3s ease;
 }
-/* Form for Adding Highlights */
+
 .add-highlight-form {
   background: white;
   padding: 20px;
@@ -99,13 +93,11 @@ nav a {
   background-color: #0056b3;
 }
 
-/* Hover and Active States */
 nav a:hover, nav a.active {
   color: #00d1ff;
-  border-bottom: 2px solid #00d1ff; /* Thinner border for a subtler look */
+  border-bottom: 2px solid #00d1ff; 
 }
 
-/* Mobile-Responsive Menu */
 @media (max-width: 768px) {
   header {
     padding: 0.8rem 1.5rem;
@@ -130,7 +122,7 @@ nav a:hover, nav a.active {
   }
 
   nav a {
-    font-size: 1rem; /* Increased font size for mobile */
+    font-size: 1rem; 
   }
 
   .menu-toggle {
@@ -145,7 +137,6 @@ nav a:hover, nav a.active {
 
 
 
-/* Hero Section */
 .hero {
   position: relative;
   text-align: center;
@@ -155,13 +146,12 @@ nav a:hover, nav a.active {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 80vh; /* Fullscreen look */
+  min-height: 80vh; 
   background: url('images/wp12548041-night-nature-4k-wallpapers.jpg') no-repeat center center/cover;
   background-size: cover;
   background-position: center;
 }
 
-/* Hero Content */
 .hero-content {
   max-width: 800px;
   text-align: center;
@@ -182,7 +172,6 @@ nav a:hover, nav a.active {
   line-height: 1.6;
 }
 
-/* Button Styling */
 .hero button {
   background-color: #00d1ff;
   color: #fff;
@@ -198,10 +187,9 @@ nav a:hover, nav a.active {
 .hero button:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-  background-color: #007BFF; /* Slightly darker blue */
+  background-color: #007BFF; 
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2.5rem;
@@ -218,7 +206,6 @@ nav a:hover, nav a.active {
 }
 
 
-/* Hero Content */
 .hero-content {
   max-width: 800px;
   text-align: center;
@@ -239,7 +226,6 @@ nav a:hover, nav a.active {
   line-height: 1.6;
 }
 
-/* Button Styling */
 .hero button {
   background-color: #00d1ff;
   color: #fff;
@@ -255,10 +241,9 @@ nav a:hover, nav a.active {
 .hero button:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-  background-color: #007BFF; /* Slightly darker blue */
+  background-color: #007BFF; 
 }
 
-/* Responsive Adjustments */
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2.5rem;
@@ -275,7 +260,6 @@ nav a:hover, nav a.active {
 }
 
 
-/* Highlights Section */
 .highlights {
   padding: 4rem 2rem;
   text-align: center;
@@ -330,12 +314,11 @@ nav a:hover, nav a.active {
   color: #555;
 }
 
-/* Testimonial Section */
 .testimonial {
   padding: 4rem 2rem;
   text-align: center;
-  background: #0056b3; 
-  color: white;
+  background: whitesmoke; 
+  color: #0056b3;
 }
 
 .testimonial h2 {
@@ -366,7 +349,6 @@ nav a:hover, nav a.active {
   font-weight: bold;
 }
 
-/* Footer Section */
 footer {
   background: #003366; 
   color: white;

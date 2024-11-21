@@ -1,48 +1,43 @@
 /* Header Section */
 header {
-    background-color: #004aad; /* Deep blue for header */
+    background-color: #004aad; 
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0.8rem 1.5rem; /* Smaller padding for a more compact header */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 0.8rem 1.5rem; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     position: sticky;
     top: 0;
     z-index: 1000;
   }
   
-  /* Logo Styling */
   header .logo {
-    font-size: 1.8rem; /* Reduced font size */
+    font-size: 1.8rem; 
     font-weight: bold;
     letter-spacing: 1px;
   }
   
-  /* Navigation Styles */
   nav ul {
     display: flex;
     list-style: none;
-    gap: 1.2rem; /* Reduced gap between links */
+    gap: 1.2rem; 
   }
   
-  /* Navigation Link Styles */
   nav a {
     color: white;
     text-decoration: none;
     padding: 0.5rem;
     font-weight: 500;
-    font-size: 1.1rem; /* Slightly smaller font size */
+    font-size: 1.1rem; 
     transition: color 0.3s ease, border-bottom 0.3s ease;
   }
   
-  /* Hover and Active States */
   nav a:hover, nav a.active {
     color: #00d1ff;
-    border-bottom: 2px solid #00d1ff; /* Thinner border for a subtler look */
+    border-bottom: 2px solid #00d1ff; 
   }
   
-  /* Mobile-Responsive Menu */
   @media (max-width: 768px) {
     header {
       padding: 0.8rem 1.5rem;
@@ -67,7 +62,7 @@ header {
     }
   
     nav a {
-      font-size: 1rem; /* Increased font size for mobile */
+      font-size: 1rem; 
     }
   
     .menu-toggle {
@@ -78,7 +73,8 @@ header {
       font-size: 2rem;
       cursor: pointer;
     }
-  }/* General Styles */
+  }
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -149,7 +145,6 @@ body {
     margin-bottom: 1rem;
 }
 
-/* Mission Section */
 .mission-section {
     background-color: #eaf3ff;
     padding: 3rem 2rem;
@@ -163,7 +158,6 @@ body {
     line-height: 1.8;
 }
 
-/* Buttons */
 button {
     background-color: #004aad;
     color: white;
@@ -179,7 +173,6 @@ button:hover {
     background-color: #00d1ff;
 }
 
-/* Footer */
 footer {
     background-color: #003366;
     color: white;

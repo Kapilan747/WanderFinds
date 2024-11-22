@@ -173,7 +173,7 @@ nav a:hover, nav a.active {
 }
 
 .hero button {
-  background-color: #00d1ff;
+  background-color: #004aad;
   color: #fff;
   border: none;
   padding: 1rem 2rem;
@@ -187,7 +187,8 @@ nav a:hover, nav a.active {
 .hero button:hover {
   transform: translateY(-5px);
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-  background-color: #007BFF; 
+  background-color: whitesmoke;
+  color: #004aad; 
 }
 
 @media (max-width: 768px) {
@@ -226,23 +227,7 @@ nav a:hover, nav a.active {
   line-height: 1.6;
 }
 
-.hero button {
-  background-color: #00d1ff;
-  color: #fff;
-  border: none;
-  padding: 1rem 2rem;
-  font-size: 1.2rem;
-  cursor: pointer;
-  border-radius: 50px;
-  font-weight: bold;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
-}
 
-.hero button:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
-  background-color: #007BFF; 
-}
 
 @media (max-width: 768px) {
   .hero-content h1 {
